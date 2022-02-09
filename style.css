@@ -37,6 +37,7 @@ ul
     margin: auto;
     font-size: large;
     list-style-type:circle;
+    border-radius: 5px;
     
 }
 

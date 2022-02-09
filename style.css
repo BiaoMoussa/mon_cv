@@ -163,4 +163,8 @@ h1:hover
     {
         color: teal;
     }
+    h2
+    {
+        font-size: 2em;
+    }
 }

@@ -1,0 +1,166 @@
+/* Le corps générale*/
+body 
+{
+    background-color: rgba(236, 230, 221, 0.781);
+}
+/* L'entête*/
+h1
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px orange solid;
+    background-color: azure;
+    display: block;
+    margin:auto;
+    padding: auto;
+    border-radius: 5px;
+}
+h2
+{
+    color: rgb(66, 181, 216);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 248, 220, 0.692);
+    font-size: 3em;
+    border: 1px orange solid;
+    box-shadow: 3px 2px rgba(36, 36, 35, 0.685) ;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(66, 181, 216);
+}
+
+
+ul
+{
+    font-size: 1,5em;
+    background-color: rgba(240, 255, 255, 0.767);
+    display: block;
+    margin: auto;
+    font-size: large;
+    list-style-type:circle;
+    
+}
+
+#interet li
+{
+    font-weight: bold;
+}
+p
+{
+    display: block;
+    border-bottom: 1px;
+    text-align: center;
+    font-size: large;
+    background-attachment: fixed;
+}
+
+
+div
+{
+   background-color: rgba(50, 160, 211, 0.26); 
+   text-align: center;
+   padding: 50px 50px 50px 50px ;
+   font-size: medium;
+   box-shadow: 6px 6px  rgba(35, 36, 36, 0.349);
+}
+.information
+{
+    font-size: x-large;
+    font-family: fantasy;
+    font-weight: bold;
+    color: coral;
+    
+}
+.valeur
+{
+    font-size: x-large;
+}
+h2:hover
+{
+    color :chocolate;
+}
+.information:hover
+{
+    color : blue;
+}
+.CV
+{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.haut
+{
+    border-top-left-radius:180px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 180px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.bas
+{
+    border-top-left-radius:180px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 180px;
+    border-bottom-left-radius: 20px;
+}
+
+h1:hover
+{
+    color: green;
+}
+.valeur:hover
+{
+    color: teal;
+}
+
+/* instruction pour la partie responsive*/
+
+@media all and (max-width : 1024px)
+{
+    body
+    {
+        width: auto;
+    }
+    #profile img
+    {
+        display: flex;
+        flex: auto;
+        left: 20px;
+        width: 200px;
+    }
+    p .Nom_prenom
+    {   
+        font-size:2em ;
+        display: flex;
+        flex: auto;
+        flex-wrap:wrap;
+        left: auto;
+        top: auto;
+    }
+    .information
+    {
+        position: relative;
+        font-size: 1.2em;
+    }
+    .valeur
+    {
+        font-size: 1em;
+    }
+    #infos ul
+    {
+        position: relative;
+        display: block;
+        width: auto;
+        margin-top: -500px;
+    }
+    h1:hover
+    {
+        color: green;
+    }
+        .valeur:hover
+    {
+        color: teal;
+    }
+}

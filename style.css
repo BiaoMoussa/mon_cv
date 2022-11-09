@@ -37,6 +37,7 @@ ul
     margin: auto;
     font-size: large;
     list-style-type:circle;
+    border-radius: 5px;
     
 }
 
@@ -162,5 +163,9 @@ h1:hover
         .valeur:hover
     {
         color: teal;
+    }
+    h2
+    {
+        font-size: 2em;
     }
 }
